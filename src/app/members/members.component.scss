@@ -1,0 +1,82 @@
+.invite-header {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.invite-img {
+    height: 30px;
+    margin-top: 3px;
+}
+
+.details {
+    justify-content: space-between;
+}
+
+.btn-drpdown {
+    color: #1c1a1a;
+    background-color: #ffffff;
+    border-color: #18191a;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .pad-50 {
+        padding: 50px;
+    }
+
+    .invite-btn {
+        width: 20%;
+    }
+
+     }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .pad-20 {
+        padding: 20px;
+    }
+
+    .invite-btn {
+        width: 20%;
+    }
+ }
+
+ .invite-title {
+    margin-left: 10px;
+    margin-top: 4px;
+    font-size: 20px;
+ }
+
+ .toast-close {
+    margin-left: 130px;
+    margin-top: 10px;
+ }
+
+ .display-flex {
+     display: flex;
+ }
+
+ .toast-header, .toast.fade.show {
+    background-color: #212529;
+}
+
+.toast-body {
+    color: white;
+}
+
+.top-space {
+    margin-top: 10px;
+}
+
+.text-align-end {
+    text-align: end;
+}
